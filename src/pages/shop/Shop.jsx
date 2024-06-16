@@ -12,6 +12,7 @@ const Shop = () => {
         <div className="products">
             {Products.map((product)=> (
                 <Product
+                key={product.id}
                 data = {product}
                 />
             )
